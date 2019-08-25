@@ -3,3 +3,7 @@ https://www.cnblogs.com/sdcs/p/8270029.html
 
 https://www.cnblogs.com/alex-415/p/6912294.html
 Updates were rejected because the remote contains work that you do
+
+
+git push -u origin master -f
+本地版本低于远程版本时强制push的方法
