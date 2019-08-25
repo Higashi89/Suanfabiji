@@ -16,7 +16,7 @@ int main(){
     int m=0;
     float tp=0;
     while(m<max_amount){
-        float max_s=0;int pos=0;//max_sÒ»¿ªÊ¼ÉùÃ÷³ÉÁËintÀàÐÍ£¬ÔÚ×î´óÖµ±È½ÏÊ±³ö´í
+        float max_s=0;int pos=0;//max_sä¸€å¼€å§‹å£°æ˜Žæˆäº†intç±»åž‹ï¼Œåœ¨æœ€å¤§å€¼æ¯”è¾ƒæ—¶å‡ºé”™
         for(int i=0;i<N;i++){
             if(s[i]>max_s){
                 max_s=s[i];pos=i;
