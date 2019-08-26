@@ -6,7 +6,8 @@ typedef long long LL;
 //a^b%m
 
 LL km(LL a,LL b,LL m){
-    if(b==0)return 1;//ÈÎºÎÊýµÄÁã´Î·½¶¼ÊÇ1
+    if(b==0)return 1;
+    //ä»»ä½•æ•°çš„é›¶æ¬¡æ–¹éƒ½æ˜¯1
     else if(b%2==1) return a*km(a,b-1,m)%m;
     else if(b%2==0) return km(a,b/2,m)*km(a,b/2,m)%m;
 }
