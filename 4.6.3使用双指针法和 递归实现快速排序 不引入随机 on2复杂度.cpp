@@ -5,7 +5,7 @@
 using namespace std;
 
 int q_change(int a[],int L,int R){
-    int temp=a[L];
+    int temp=a[L]; //提取出该区间内第一个数，比他小的放他左边，比他大的放右边
     while(L<R){
         while(L<R&&a[R]>temp)R--;
         a[L]=a[R];
