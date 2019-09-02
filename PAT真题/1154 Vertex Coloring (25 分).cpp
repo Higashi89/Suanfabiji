@@ -1,4 +1,4 @@
-
+﻿
 #include<cstdio>
 #include<iostream>
 #include<algorithm>
@@ -47,7 +47,7 @@ int main(){
 
 
 
-//�ϰ�
+//老版
 #include<iostream>
 #include<algorithm>
 #include<cstdio>

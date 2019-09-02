@@ -1,4 +1,4 @@
-//22�� ÿ���ύ���Ե㲻һ�� 22/19 �𰸴���/��ʱ ����һ�����Ե���ǹ�����
+﻿//22分 每次提交测试点不一样 22/19 答案错误/超时 但有一个测试点就是过不了
 #include<cstdio>
 #include<iostream>
 #include<algorithm>

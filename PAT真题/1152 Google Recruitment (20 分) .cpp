@@ -1,4 +1,4 @@
-#include<cstdio>
+ï»¿#include<cstdio>
 #include<iostream>
 #include<algorithm>
 #include<cmath>
@@ -28,7 +28,7 @@ int main(){
     cin>>N>>K;
     cin>>s;
     int flag=0;
-    for(int i=0;i<=N-K;i++){ //ÒªÐ´³Éi<=N-K ²»ÊÇ<N-K
+    for(int i=0;i<=N-K;i++){ //è¦å†™æˆi<=N-K ä¸æ˜¯<N-K
         int temp=toint(i,i+K-1);
         if(isprime(temp)){
             flag=1;
@@ -44,7 +44,7 @@ int main(){
 
 
 
-//ÀÏ°æ
+//è€ç‰ˆ
 #include <iostream>
 #include<cstdio>
 #include<cstdlib>
